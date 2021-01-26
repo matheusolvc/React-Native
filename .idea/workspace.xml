@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17a182ba-b06d-4f63-8ad3-16af4783ef77" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nRKMDDE42I0ZBgsHgvImyyYl3n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="/home/filipe/StudioProjects/React-Native/baseReactApp/android/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/baseReactApp/android/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle./home/filipe/StudioProjects/React-Native/baseReactApp/android/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17a182ba-b06d-4f63-8ad3-16af4783ef77" name="Default Changelist" comment="" />
+      <created>1611347413951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611347413951</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit para rodar ambiente linux">
+      <created>1611690771876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611690771876</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit para rodar ambiente linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit para rodar ambiente linux" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="177" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611667380605">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="177" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1611667380605" />
+    <state x="421" y="199" width="585" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611690319631">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="421" y="199" width="585" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741@72.27.1294.741" timestamp="1611690319631" />
+    <state x="172" y="127" width="1094" height="541" key="AVDManager" timestamp="1611671148316">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="172" y="127" width="1094" height="541" key="AVDManager/72.27.1294.741@72.27.1294.741" timestamp="1611671148316" />
+    <state x="502" y="141" width="424" height="520" key="FileChooserDialogImpl" timestamp="1611667542256">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="502" y="141" width="424" height="520" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1611667542256" />
+    <state width="634" height="159" key="GridCell.Tab.0.bottom" timestamp="1611668080575">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="634" height="159" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1611668080575" />
+    <state width="634" height="159" key="GridCell.Tab.0.center" timestamp="1611668080575">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="634" height="159" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1611668080575" />
+    <state width="634" height="159" key="GridCell.Tab.0.left" timestamp="1611668080574">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="634" height="159" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1611668080574" />
+    <state width="634" height="159" key="GridCell.Tab.0.right" timestamp="1611668080575">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="634" height="159" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1611668080575" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1611668404207">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1611668404207" />
+    <state x="314" y="133" width="800" height="509" key="Vcs.Push.Dialog.v2" timestamp="1611691790150">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="509" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1611691790150" />
+    <state x="349" y="27" width="623" height="741" key="find.popup" timestamp="1611683229725">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="349" y="27" width="623" height="741" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1611683229725" />
+    <state x="375" y="186" width="678" height="430" key="git4idea.merge.GitPullDialog" timestamp="1611671144490">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="375" y="186" width="678" height="430" key="git4idea.merge.GitPullDialog/72.27.1294.741@72.27.1294.741" timestamp="1611671144490" />
+    <state x="382" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1611667738929">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="382" y="88" width="672" height="678" key="search.everywhere.popup/72.27.1294.741@72.27.1294.741" timestamp="1611667738929" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/baseReactApp/android/build.gradle</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
