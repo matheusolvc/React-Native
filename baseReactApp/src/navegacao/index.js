@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer'
 import { createStackNavigator } from '@react-navigation/stack';
@@ -39,10 +39,15 @@ const HomeStackScreen = ({navigation}) => (
           }
       }}>
           <HomeStack.Screen name="Home" component={Home} options={{
-          title:'Home',
-          headerLeft: () => (
-              <Icon.Button name="ios-menu" size={25} backgroundColor="#5B318A" onPress={() => navigation.openDrawer()}></Icon.Button>
-          )
+          headerTitle:() => (
+            <Image source={require('../../assets/images/logo.png')} />
+            ),
+            headerLeft: () => (
+                <Icon.Button name="ios-menu" size={25} backgroundColor="#5B318A" onPress={() => navigation.openDrawer()}></Icon.Button>
+            ),
+            headerRight: () => (
+              <Icon.Button name="ios-search" size={25} backgroundColor="#5B318A" onPress={() => navigation.navigate('Search')}></Icon.Button>
+            )
           }} />
   </HomeStack.Navigator>
   );
