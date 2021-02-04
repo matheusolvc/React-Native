@@ -10,7 +10,7 @@ import Home from '../views/Home'
 import TelaA from '../views/TelaA'
 import Service from '../services/Services'
 import Search from '../views/Search'
-import SearchBar from './components/SearchBar'
+import SearchBar from '../components/SearchBar'
 
 const Drawer =  createDrawerNavigator()
 const HomeStack = createStackNavigator();
