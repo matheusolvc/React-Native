@@ -9,16 +9,19 @@ import { DrawerContent } from './DrawerContent'
 import Home from '../views/Home'
 import TelaA from '../views/TelaA'
 import Service from '../services/Services'
+import Search from '../views/Search'
 
 const Drawer =  createDrawerNavigator()
 const HomeStack = createStackNavigator();
 const TelaAStack = createStackNavigator();
+const SearchStack = createStackNavigator();
 const ServiceStack = createStackNavigator();
 
 export default () => (
   <NavigationContainer>
     <Drawer.Navigator drawerContent={props => <DrawerContent {...props} color="#5B318A"/>}>
-      <Drawer.Screen name="Home" component={ HomeStackScreen }/>
+      <Drawer.Screen name="Home" component={HomeStackScreen} />
+      <Drawer.Screen name="Search" component={ SearchStackScreen }/>
       <Drawer.Screen name="TelaA" component={ TelaAStackScreen }/>
       <Drawer.Screen name="Service" component={ ServiceStackScreen }/>
     </Drawer.Navigator>
@@ -80,6 +83,29 @@ const TelaAStackScreen = ({navigation}) => (
             }} />
     </ServiceStack.Navigator>
     );
+
+  const SearchStackScreen = ({navigation}) => (
+  <SearchStack.Navigator screenOptions={{
+          headerStyle: {
+          backgroundColor: '#5B318A', 
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+          fontWeight: 'bold'
+          }
+          
+      }}>
+          <SearchStack.Screen name="Search" component={Search} options={{
+              headerLeft: () => (
+                <Icon.Button name="arrow-back" size={25} backgroundColor="#5B318A" onPress={() => navigation.goBack()}></Icon.Button>
+              ),
+              headerTitle: () => (
+                <SearchBar />
+              )
+            }}
+          />
+  </SearchStack.Navigator>
+  );
 
 const style = StyleSheet.create({
   App: {
