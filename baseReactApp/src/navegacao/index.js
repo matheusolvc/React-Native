@@ -8,16 +8,19 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { DrawerContent } from './DrawerContent'
 import Home from '../views/Home'
 import TelaA from '../views/TelaA'
+import Service from '../services/Services'
 
 const Drawer =  createDrawerNavigator()
 const HomeStack = createStackNavigator();
 const TelaAStack = createStackNavigator();
+const ServiceStack = createStackNavigator();
 
 export default () => (
   <NavigationContainer>
     <Drawer.Navigator drawerContent={props => <DrawerContent {...props} color="#5B318A"/>}>
       <Drawer.Screen name="Home" component={ HomeStackScreen }/>
       <Drawer.Screen name="TelaA" component={ TelaAStackScreen }/>
+      <Drawer.Screen name="Service" component={ ServiceStackScreen }/>
     </Drawer.Navigator>
     </NavigationContainer>
 );
@@ -58,6 +61,25 @@ const TelaAStackScreen = ({navigation}) => (
           }} />
   </TelaAStack.Navigator>
   );
+
+  const ServiceStackScreen = ({navigation}) => (
+    <ServiceStack.Navigator screenOptions={{
+            headerStyle: {
+            backgroundColor: '#5B318A',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+            fontWeight: 'bold'
+            }
+        }}>
+            <ServiceStack.Screen name="Home" component={Service} options={{
+            title:'Home',
+            headerLeft: () => (
+                <Icon.Button name="ios-menu" size={25} backgroundColor="#5B318A" onPress={() => navigation.openDrawer()}></Icon.Button>
+            )
+            }} />
+    </ServiceStack.Navigator>
+    );
 
 const style = StyleSheet.create({
   App: {

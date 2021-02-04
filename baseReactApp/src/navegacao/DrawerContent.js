@@ -55,6 +55,18 @@ export function DrawerContent(props) {
                             label="TelaA"
                             onPress={() => {props.navigation.navigate('TelaA')}}
                         />
+
+                        <DrawerItem 
+                            icon={({color, size}) => (
+                                <Icon 
+                                name="account-outline" 
+                                color="#5B318A"
+                                size={size}
+                                />
+                            )}
+                            label="Service"
+                            onPress={() => {props.navigation.navigate('Service')}}
+                        />
                     </Drawer.Section>
                     <Drawer.Section title="Preferences">
                         <TouchableRipple onPress={() => {}}>
