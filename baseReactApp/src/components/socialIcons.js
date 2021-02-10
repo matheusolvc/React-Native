@@ -1,15 +1,12 @@
 import React from 'react'
-import { StyleSheet, View } from 'react-native'
+import { Button, StyleSheet, TouchableHighlight, View } from 'react-native'
 import { SocialIcon } from 'react-native-elements'
 
 export default props => {
-    
     return (
-        <View style={style.row}>
-            <SocialIcon iconSize={18} light type='facebook' />
-            <SocialIcon iconSize={18} light type='instagram' />
-            <SocialIcon iconSize={18} light type='whatsapp' iconColor='#25D366'/>
-        </View>
+        <TouchableHighlight style={style.row} onPress={() => props.onClick(props.message)}>
+            <SocialIcon iconSize={18} light type='share-alt' iconColor='#25D366'/>
+        </TouchableHighlight>
     )
 }
 
