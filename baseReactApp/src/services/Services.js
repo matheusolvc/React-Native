@@ -17,12 +17,24 @@ export default class Services extends Component {
   componentWillMount() {
     
     //Requisição HTTP
-    Api.post('welcome/get_sugestao_lista', { key: '1'})
+
+    Api.get('services/pesagem/valida3',{key:1})
       .then(response => { console.warn(response); })
       //.then(response => { this.setState({ lista: response.data }); })
       .catch(() => { console.warn('Erro ao recuperar os dados!'); })
-  }
 
+      /*bodyFormData = new FormData();
+      bodyFormData.set('key', '1');
+      Api.request({
+        method: 'post',
+        url: 'https://pedeoferta.com.br/oferta/welcome/get_sugestao_lista',
+        headers: {'Content-Type': 'multipart/form-data' },
+        data: bodyFormData}
+       
+        
+        ).then(response => { console.warn(response); })*/
+  
+}
 
   render() {
      /*return (
